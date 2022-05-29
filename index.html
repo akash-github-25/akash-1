@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #navbar{
+        
+            width:80%;
+            height:80px;
+            margin:auto;
+            display: flex;
+            justify-content: space-between;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        #navbar>div:first-child{
+            width:14%;
+            height:78px;
+            text-align: center;
+            font-size: 25px;
+            font-weight: 50px;
+            display:flex;
+            align-items: center;
+            padding-left: 45px;
+            color:white;
+            background-color: blue;
+        }
+        #navbar>div:last-child{
+    
+            display:flex;
+            width:60%;
+        
+        }
+        #navbar>div:last-child>h2{
+            font-size: 20px;
+            margin-right: 30px;
+            display: flex;
+            align-items: center;
+        }
+        #navbar>div:last-child>h2:first-child{
+            color:lightskyblue;
+        }
+        #bottom{
+    
+          width:80%;
+          margin: auto;
+          height:400px;
+          margin-top: 15px;
+          display: flex;
+          justify-content: space-between;
+        }
+        #bottom>:first-child{
+        
+            width:47%;
+            height:400px;
+        }
+        h4{
+            color:lightskyblue
+        }
+        #bottom>div:first-child>p{
+            line-height: 20px;
+            color:grey;
+        }
+        #bottom>div:first-child>div{
+            
+            width:100%;
+            display:flex;
+        
+        }
+        #bottom>div:first-child>div>img{
+        
+            width:22%;
+            margin-bottom: 10px;
+        }
+        #bottom>div:first-child>div>h3{
+            margin-left: 40px;
+        
+        }
+        #bottom>div:last-child{
+    
+            width:47%;
+            height:400px;
+            display:grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2,210px);
+        }
+        #bottom>div:last-child>div{
+
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            margin: 0px 10px 20px 0px;
+        }
+        #bottom>div:last-child>div>img{
+    
+            width:55%
+        }
+        #bottom>div:last-child>div>p{
+            color:grey;
+        }
+
+      @media all and (min-width:320px) and (max-width:600px){
+        #bottom>div:last-child{
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(4,210px);
+        }
+        #navbar{
+            width:60%;
+        }
+      }
+
+    </style>
+</head>
+<body>
+    <div id="navbar">
+           <div>StudyLab</div>
+           <div>
+               <h2>Home</h2>
+               <h2>About</h2>
+               <h2>Course</h2>
+               <h2>Instructor</h2>
+               <h2>Blog</h2>
+               <h2>Contact</h2>
+           </div>
+    </div>
+    <div id="bottom">
+        <div>
+            <h4>WELCOME TO STUDYLAB</h4>
+            <h1>We Are StudyLab An Online Learning Center</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, ab! Similique mollitia eveniet itaque et minus atque tempora laborum saepe.</p>
+           
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis tempora et eum possimus neque fuga, aliquid voluptatum ullam repellendus! Voluptatum.</p>
+     <div>
+         <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/money_Control_c3e25f5ceb.png" alt="">
+         <h3>Learn Any Thing From StudyLab And Watch Video</h3>
+     </div>
+        </div>
+        <div>
+            <div>
+    <img src="https://www.masaischool.com/img/our-investors/indiaQuotient.svg" alt="">
+                <h3>Top Quality Content</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, laboriosam laborum delectus possimus!</p>
+            </div>
+
+<div><img src="https://www.masaischool.com/img/our-investors/indiaQuotient.svg" alt="">
+    <h3>Top Quality Content</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, laboriosam laborum delectus possimus!</p></div>
+            <div><img src="https://www.masaischool.com/img/our-investors/indiaQuotient.svg" alt="">
+                <h3>Top Quality Content</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, laboriosam laborum delectus possimus!</p></div>
+            <div><img src="https://www.masaischool.com/img/our-investors/indiaQuotient.svg" alt="">
+                <h3>Top Quality Content</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, laboriosam laborum delectus possimus!</p></div>
+        </div>
+    </div>
+</body>
+</html>
